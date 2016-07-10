@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!-- 
 	Usage:
 
@@ -16,23 +16,24 @@
 	<text xml:lang="ja">Japanese App name goes here</text>
 	</name>
 -->
-<application xmlns="http://ns.adobe.com/air/application/17.0">
-  <id>PassStorage</id>
-  <versionNumber>1.0</versionNumber>
-  <filename>PassStorage</filename>
-  <description/>
-  <name>PassStorage</name>
-  <copyright/>
-  <initialWindow>
-    <content>PassStorage.swf</content>
-    <systemChrome>none</systemChrome>
-    <transparent>true</transparent>
-    <visible>true</visible>
-    <fullScreen>false</fullScreen>
-    <aspectRatio>portrait</aspectRatio>
-    <renderMode>auto</renderMode>
-  </initialWindow>
-  <icon/>
-  <customUpdateUI>false</customUpdateUI>
-  <allowBrowserInvocation>false</allowBrowserInvocation>
-  <supportedProfiles>extendedDesktop </supportedProfiles></application>
+<application xmlns="http://ns.adobe.com/air/application/20.0">
+    <id>PassStorage</id>
+    <versionNumber>1.0</versionNumber>
+    <filename>PassStorage</filename>
+    <description></description>
+    <name>PassStorage</name>
+    <copyright></copyright>
+    <initialWindow>
+        <content>PassStorage.swf</content>
+        <systemChrome>none</systemChrome>
+        <transparent>true</transparent>
+        <visible>true</visible>
+        <fullScreen>false</fullScreen>
+        <aspectRatio>portrait</aspectRatio>
+        <renderMode>auto</renderMode>
+    </initialWindow>
+    <icon></icon>
+    <customUpdateUI>false</customUpdateUI>
+    <allowBrowserInvocation>false</allowBrowserInvocation>
+    <supportedProfiles>extendedDesktop </supportedProfiles>
+</application>
