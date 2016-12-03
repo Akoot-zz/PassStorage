@@ -29,11 +29,11 @@
 
 		public static function randomColorB(brightness: Number): uint
 		{
-			var r: Number = ((Random.random(0, 255)) + ((brightness / 10) * 255)) / 10;
-			var g: Number = ((Random.random(0, 255)) + ((brightness / 10) * 255)) / 10;
-			var b: Number = ((Random.random(0, 255)) + ((brightness / 10) * 255)) / 10;
+			var r: int = brightness + Random.random(0, 255);
+			var g: int = brightness + Random.random(0, 255);
+			var b: int = brightness + Random.random(0, 255);
 			
-			trace("r:" + r + ",g:" + g + ",b:" + b);
+			//trace("r:" + r + ",g:" + g + ",b:" + b);
 
 			var color: uint = r << 16 | g << 8 | b;
 			return color;
